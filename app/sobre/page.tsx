@@ -28,6 +28,21 @@ export default function SobrePage() {
           </a>
           .
         </p>
+        <h2>Fontes e referências</h2>
+        <p>
+          As definições deste glossário foram compiladas com apoio de IA a
+          partir de conhecimento geral, documentação técnica e verbetes de
+          referência como a Wikipédia — não são citações diretas de uma fonte
+          única por termo. Quando um termo tem um link de referência, ele foi
+          conferido manualmente antes de ser publicado, mas o texto da
+          definição em si é uma síntese, não uma tradução ou cópia.
+        </p>
+        <p>
+          Para os termos de saúde e segurança do paciente em especial, este
+          glossário é material de estudo geral e não substitui protocolos
+          institucionais, bulas ou a orientação de um profissional
+          qualificado.
+        </p>
       </div>
     </main>
   );
