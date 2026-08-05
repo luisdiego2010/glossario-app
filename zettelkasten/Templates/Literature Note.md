@@ -1,5 +1,6 @@
 ---
 tags: [literature]
+type: literature
 date: {{date}}
 autor:
 titulo-original:
@@ -8,6 +9,8 @@ status: lendo
 ---
 
 # {{title}}
+
+> [!todo] Esta nota nasceu no Inbox — quando terminar o fichamento, mova para `Literatura/`.
 
 ## Referência completa
 

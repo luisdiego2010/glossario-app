@@ -33,6 +33,22 @@ Inbox  →  Literatura  →  Permanentes  →  Rascunhos de Blog
 - **Templates/** — modelos para os três tipos de nota (fleeting, literatura,
   permanente).
 
+Toda nota nasce em **Inbox/**, qualquer que seja o tipo (o campo `type` no
+frontmatter identifica qual modelo foi usado: `fleeting`, `literature` ou
+`permanent`). Depois de processada, mova-a manualmente para `Literatura/` ou
+`Permanentes/` — os templates de literatura e permanente trazem um lembrete
+disso no topo da nota. Para achar rapidamente o que ainda está pendente de
+mover, busque `path:Inbox` na busca do Obsidian.
+
+### Criação rápida com QuickAdd (opcional)
+
+Para que a nota já nasça em `Inbox/` com o modelo certo assim que você
+escolher o tipo, instale o plugin de comunidade **QuickAdd**
+(`Settings > Community plugins > Browse`) e crie uma choice do tipo
+*Template* para cada modelo (`Fleeting`, `Literature`, `Permanent`), todas
+apontando para a pasta `Inbox`. Agrupe as três numa choice do tipo *Multi* e
+atribua um atalho em `Settings > Hotkeys`.
+
 ## Regra de ouro
 
 Escreva as notas de literatura e permanentes sempre com suas próprias

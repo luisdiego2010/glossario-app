@@ -1,5 +1,6 @@
 ---
 tags: [fleeting]
+type: fleeting
 date: {{date}}
 ---
 
@@ -12,4 +13,4 @@ date: {{date}}
 
 
 ## Próximo passo
-- [ ] Processar: virar nota de literatura ou permanente, ou descartar
+- [ ] Processar: mover para `Literatura/` (se virar fichamento) ou `Permanentes/` (se virar ideia atômica), ou apagar
